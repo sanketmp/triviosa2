@@ -1,0 +1,41 @@
+#result {
+  margin: 0;
+  padding: 1px;
+}
+
+.res-container {
+  width: 50%;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 10%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.res-container .res-title {
+  color: inherit;
+  font-size: 70px;
+  margin-top: 5%;
+}
+
+.res-container .res-score {
+  color: inherit;
+  font-size: 90px;
+}
+
+.res-container .res-button {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 720px) {
+  .res-container {
+    margin-top: 40%;
+    padding: 20px;
+  }
+  .res-container .res-title {
+    text-align: center;
+  }
+}

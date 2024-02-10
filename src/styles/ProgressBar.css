@@ -1,0 +1,14 @@
+.progress-bar {
+  top: 0;
+  left: 0;
+  width: 95%;
+  margin: auto;
+}
+.progress {
+  height: 8px;
+  border-radius: 4px;
+  width: 0%;
+  background: lightgreen;
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+}

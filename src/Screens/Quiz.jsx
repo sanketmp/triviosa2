@@ -50,7 +50,7 @@ const Quiz = () => {
   };
 
   const handleNext = () => {
-    if (queNo > 8) {
+    if (queNo > 8 && selected) {
       navigate("/result");
     } else if (selected) {
       setqueNo(queNo + 1);

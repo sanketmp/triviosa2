@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <Link to="/" className="title">
-        .triviosa<span className="dox">.</span>
+        triviosa<span className="dox">.</span>
       </Link>
     </div>
   );
